@@ -14,7 +14,31 @@
 				Git commit command is the main function for saving changes to local repository safely. Commit takes a snapshot of the project and treats it as a version. The <code><b>git commit</b></code> command will save all staged changes, along with a brief description from the user, in a “commit” to the local repository.
 			</p>
 		</article>
-		
+	</section>
+	<section>
+		<h2>Some Git Commit Options/flags </h2>
+		<ul>
+			<li>
+				<h4>The -m flag </h4>
+				<p>
+				The most common option used with git commit is the -m option. The -m stands for message. When calling git commit, it is required to include a message. The message should be a short description of the changes being committed. The message should be at the end of the command and it must be wrapped in quotations " ".
+			</p>
+			<p>An example of how to use the -m option:</p>
+			<img src="images/commit_m.png" alt="commit_m example" >
+			</li>
+			<li>
+				<h4>The -a flag</h4>
+				<p>The -a stands for all. This option automatically stages all modified files to be committed. If new files are added the -a option will not stage those new files. Only files that the Git repository is aware of will be committed.</p>
+				<p>An example of how to use the -a option:</p>
+				<img src="images/commit_a.png" alt="commit -a example" >
+			</li>
+			<li>
+				<h4>The —amend Option</h4>
+				<p>The --amend option allows you to change your last commit. Let’s say you just committed and you made a mistake in your commit log message. You can conveniently modify the most recent commit using the command:</p>
+				<p>An example of how to use the --amend option:</p>
+				<img src="images/commit__amend.png" alt="commit --ammend example" >
+			</li>
+		</ul>
 	</section>
 </body>
 </html>
